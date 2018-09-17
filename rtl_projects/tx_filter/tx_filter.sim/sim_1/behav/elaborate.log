@@ -1,0 +1,13 @@
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto c8c9c0ec3c6e4df584ec612f0ab0425d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tx_filter_behav xil_defaultlib.tb_tx_filter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.tx_filter(NB_COEF=8,NBF_COEF_SRR...
+Compiling module xil_defaultlib.tb_tx_filter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_tx_filter_behav

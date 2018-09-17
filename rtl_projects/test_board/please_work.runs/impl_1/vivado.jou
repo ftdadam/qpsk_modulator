@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Thu Dec 07 15:13:12 2017
+# Process ID: 7280
+# Current directory: D:/proyecto_integrador/rtl_projects/test_board/please_work.runs/impl_1
+# Command line: vivado.exe -log please.vdi -applog -messageDb vivado.pb -mode batch -source please.tcl -notrace
+# Log file: D:/proyecto_integrador/rtl_projects/test_board/please_work.runs/impl_1/please.vdi
+# Journal file: D:/proyecto_integrador/rtl_projects/test_board/please_work.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source please.tcl -notrace

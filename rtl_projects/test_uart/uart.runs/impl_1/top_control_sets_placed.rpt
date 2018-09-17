@@ -1,0 +1,66 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Thu Dec 07 17:14:37 2017
+| Host         : DESKTOP-8T38IV2 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    13 |
+| Unused register locations in slices containing registers |    40 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              34 |            6 |
+| No           | No                    | Yes                    |              33 |           10 |
+| No           | Yes                   | No                     |              11 |            4 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              24 |            8 |
+| Yes          | Yes                   | No                     |              74 |           18 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+------------------------------------------+---------------------------------+------------------+----------------+
+|       Clock Signal       |               Enable Signal              |         Set/Reset Signal        | Slice Load Count | Bel Load Count |
++--------------------------+------------------------------------------+---------------------------------+------------------+----------------+
+|  clk_wiz_0/inst/clk_out1 |                                          |                                 |                1 |              1 |
+|  clk_wiz_0/inst/clk_out1 | u_uart_top/u_uart_rx/s_reg[3]_i_1_n_0    | SW_IBUF[0]                      |                2 |              4 |
+|  clk_wiz_0/inst/clk_out1 | u_uart_top/u_uart_tx/s_reg[3]_i_1__0_n_0 | SW_IBUF[0]                      |                2 |              4 |
+|  clk_wiz_0/inst/clk_out1 | u_uart_top/u_mod_m_counter/E[0]          | SW_IBUF[0]                      |                2 |              8 |
+|  clk_wiz_0/inst/clk_out1 | u_uart_top/u_uart_tx/b_reg[7]_i_1__0_n_0 | SW_IBUF[0]                      |                2 |              8 |
+|  clk_wiz_0/inst/clk_out2 | sel                                      | u_read_unit/SR[0]               |                2 |              8 |
+|  clk_wiz_0/inst/clk_out1 |                                          | u_write_unit/make_write_i_1_n_0 |                4 |             11 |
+|  clk_wiz_0/inst/clk_out1 | u_uart_top/u_mod_m_counter/wr_enb        |                                 |                2 |             16 |
+|  clk_wiz_0/inst/clk_out1 | u_write_unit/wr_enb                      |                                 |                2 |             16 |
+|  clk_wiz_0/inst/clk_out1 | u_read_unit/dout[31]_i_1_n_0             | SW_IBUF[0]                      |                6 |             32 |
+|  clk_wiz_0/inst/clk_out1 |                                          | SW_IBUF[0]                      |               10 |             33 |
+|  clk_wiz_0/inst/clk_out2 |                                          |                                 |                5 |             33 |
+|  clk_wiz_0/inst/clk_out1 | u_uart_top/u_fifo_rx/E[0]                | SW_IBUF[0]                      |               10 |             34 |
++--------------------------+------------------------------------------+---------------------------------+------------------+----------------+
+
+

@@ -1,0 +1,147 @@
+#include <stdio.h>
+#include <string.h>
+#include "platform.h"
+//#include "xil_printf.h"
+
+//#include "xil_types.h"
+//#include "xgpio.h"
+#include "xparameters.h"
+#include "xstatus.h"
+#include "xuartlite.h"
+#include "microblaze_sleep.h"
+
+
+/************************** Constant Definitions *****************************/
+
+/*
+ * The following constants map to the XPAR parameters created in the
+ * xparameters.h file. They are defined here such that a user can easily
+ * change all the needed parameters in one place.
+ */
+#define UARTLITE_DEVICE_ID	XPAR_UARTLITE_0_DEVICE_ID
+
+/*
+ * The following constant controls the length of the buffers to be sent
+ * and received with the UartLite, this constant must be 16 bytes or less since
+ * this is a single threaded non-interrupt driven example such that the
+ * entire buffer will fit into the transmit and receive FIFOs of the UartLite.
+ */
+#define TEST_BUFFER_SIZE 16
+
+/************************** Variable Definitions *****************************/
+
+XUartLite UartLite;		/* Instance of the UartLite Device */
+
+/*
+ * The following buffers are used in this example to send and receive data
+ * with the UartLite.
+ */
+u8 SendBuffer[TEST_BUFFER_SIZE];	/* Buffer for Transmitting Data */
+u8 RecvBuffer[TEST_BUFFER_SIZE];	/* Buffer for Receiving Data */
+
+XGpio GPIO_0;
+
+int main()
+{
+	/*
+	 * Custom variables
+	 */
+	u32 input = 0;
+	u8 	rx_data = 0;
+	u32 tx_data;
+	u32 byte_ptr = 0;
+	int delay = 1;
+
+	/*
+	 * UART variables
+	 */
+	int Status;
+	unsigned int SentCount;
+	unsigned int LenData;
+	unsigned int ReceivedCount = 0;
+	int Index;
+
+	/*
+	 * Initialize the UartLite driver so that it is ready to use.
+	 */
+	Status = XUartLite_Initialize(&UartLite, UARTLITE_DEVICE_ID);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	/*
+	 * Perform a self-  to ensure that the hardware was built correctly.
+	 */
+	Status = XUartLite_SelfTest(&UartLite);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	/*
+	 * Initialize the send buffer bytes with a pattern to send and the
+	 * the receive buffer bytes to zero.
+	 */
+	for (Index = 0; Index < TEST_BUFFER_SIZE; Index++) {
+		SendBuffer[Index] = Index + 0x30;
+		RecvBuffer[Index] = 0;
+	}
+
+    /*
+     *  Initialize GPIO Structure
+     *  GPIO0 - CH1 as output
+     *  GPIO0 - CH2 as input
+     */
+    XGpio_Initialize(&GPIO_0, XPAR_AXI_GPIO_0_DEVICE_ID);
+    XGpio_SetDataDirection(&GPIO_0, 1, 0x00000000);
+    XGpio_SetDataDirection(&GPIO_0, 2, 0xFFFFFFFF);
+
+	init_platform();
+
+	XUartLite_ResetFifos(&UartLite);
+	strcpy(SendBuffer,"_basura_");
+	MB_Sleep(delay);
+
+	while(1){
+		while(byte_ptr<4){
+		// until 4 bytes are received
+			ReceivedCount=XUartLite_Recv(&UartLite,&RecvBuffer,1);
+			if(ReceivedCount>0){
+				// arrange the 32 bits GPIO instruction, for every 4 bytes
+				rx_data = (u8)RecvBuffer[0];
+				input = input << (8);
+				input = (input) | ( (rx_data & 0xFF) );
+				byte_ptr++;
+				ReceivedCount=0;
+			}
+		}
+
+		// write instruction in GPIO
+		MB_Sleep(delay);
+		XGpio_DiscreteWrite(&GPIO_0, 1, input);
+		MB_Sleep(delay);
+
+		if( (input>>24) == 50) {
+			// prepare to send 4 byte
+			tx_data = XGpio_DiscreteRead(&GPIO_0, 2);
+			MB_Sleep(delay);
+			LenData=1;
+			byte_ptr = 0;
+			while(byte_ptr<4){
+				// until 4 bytes are sended
+				// arrange the 32 bits GPIO instruction, for every 4 bytes
+				SendBuffer[0] = (tx_data >> (byte_ptr*8)) & 0xFF ;
+				SentCount = XUartLite_Send(&UartLite, SendBuffer,LenData);
+				byte_ptr++;
+				MB_Sleep(delay);
+			}
+			XUartLite_ResetFifos(&UartLite);
+		}
+
+		input = 0;
+		byte_ptr = 0;
+
+		}
+
+    cleanup_platform();
+    return 0;
+}

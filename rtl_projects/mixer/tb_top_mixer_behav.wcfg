@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_mixer_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top_mixer" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="40185833333fs"></ZoomStartTime>
+      <ZoomEndTime time="40520833334fs"></ZoomEndTime>
+      <Cursor1Time time="40465000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/tb_top_mixer/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mixer/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mixer/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mixer/i_signal_infase" type="array">
+      <obj_property name="ElementShortName">i_signal_infase[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_signal_infase[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mixer/u_top_mixer/u_mixer_infase/o_signal" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">o_signal[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_signal[7:0]</obj_property>
+      <obj_property name="label">o_mixer_infase_signal[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mixer/o_mixer_infase_python" type="array">
+      <obj_property name="ElementShortName">o_mixer_infase_python[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_mixer_infase_python[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mixer/compare_psk_infase" type="logic">
+      <obj_property name="ElementShortName">compare_psk_infase</obj_property>
+      <obj_property name="ObjectShortName">compare_psk_infase</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mixer/i_signal_quadrature" type="array">
+      <obj_property name="ElementShortName">i_signal_quadrature[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_signal_quadrature[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mixer/u_top_mixer/u_mixer_quadrature/o_signal" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">o_signal[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_signal[7:0]</obj_property>
+      <obj_property name="label">o_mixer_quadrature_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mixer/o_mixer_quadrature_python" type="array">
+      <obj_property name="ElementShortName">o_mixer_quadrature_python[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_mixer_quadrature_python[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mixer/compare_psk_quadrature" type="logic">
+      <obj_property name="ElementShortName">compare_psk_quadrature</obj_property>
+      <obj_property name="ObjectShortName">compare_psk_quadrature</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../sin_ram/sin_ram.srcs/sources_1/new/sin_ram.v"
+verilog xil_defaultlib  "../../../mixer.srcs/sources_1/new/mixer.v"
+verilog xil_defaultlib  "../../../mixer.srcs/sources_1/new/top_mixer.v"
+verilog xil_defaultlib  "../../../mixer.srcs/sim_1/new/tb_top_mixer.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

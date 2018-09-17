@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_simple_adder_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_simple_adder" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="33593833334fs"></ZoomStartTime>
+      <ZoomEndTime time="33660833335fs"></ZoomEndTime>
+      <Cursor1Time time="33609233000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_simple_adder/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_adder/i_psk_infase" type="array">
+      <obj_property name="ElementShortName">i_psk_infase[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_psk_infase[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_adder/i_psk_quadrature" type="array">
+      <obj_property name="ElementShortName">i_psk_quadrature[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_psk_quadrature[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_adder/o_qpsk" type="array">
+      <obj_property name="ElementShortName">o_qpsk[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_qpsk[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_adder/u_simple_adder/qpsk_signal" type="array">
+      <obj_property name="ElementShortName">qpsk_signal[8:0]</obj_property>
+      <obj_property name="ObjectShortName">qpsk_signal[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_adder/reg_qpsk_python" type="array">
+      <obj_property name="ElementShortName">reg_qpsk_python[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_qpsk_python[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_adder/compare" type="logic">
+      <obj_property name="ElementShortName">compare</obj_property>
+      <obj_property name="ObjectShortName">compare</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_adder/u_simple_adder/sat_pos" type="logic">
+      <obj_property name="ElementShortName">sat_pos</obj_property>
+      <obj_property name="ObjectShortName">sat_pos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_adder/u_simple_adder/sat_neg" type="logic">
+      <obj_property name="ElementShortName">sat_neg</obj_property>
+      <obj_property name="ObjectShortName">sat_neg</obj_property>
+   </wvobject>
+</wave_config>

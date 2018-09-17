@@ -1,0 +1,16 @@
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 95fe04d32f6649c49a2a1e809523256e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_mixer_behav xil_defaultlib.tb_top_mixer xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mixer(NB_IN=8,NBF_IN=6,NB_OUT=8,...
+Compiling module xil_defaultlib.sin_ram(RAM_EXP=5,RAM_WIDTH=6,IN...
+Compiling module xil_defaultlib.sin_ram(RAM_EXP=5,RAM_WIDTH=6,IN...
+Compiling module xil_defaultlib.top_mixer(NB_IN=8,NBF_IN=6,NB_OU...
+Compiling module xil_defaultlib.tb_top_mixer
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_mixer_behav

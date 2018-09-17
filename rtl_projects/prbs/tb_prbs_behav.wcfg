@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_prbs_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_prbs" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1400000001fs"></ZoomEndTime>
+      <Cursor1Time time="100000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_prbs/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_prbs/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_prbs/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_prbs/i_valid" type="logic">
+      <obj_property name="ElementShortName">i_valid</obj_property>
+      <obj_property name="ObjectShortName">i_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_prbs/o_prbs" type="logic">
+      <obj_property name="ElementShortName">o_prbs</obj_property>
+      <obj_property name="ObjectShortName">o_prbs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_prbs/u_prbs/shift_reg" type="array">
+      <obj_property name="ElementShortName">shift_reg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_reg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_prbs/valid_counter" type="array">
+      <obj_property name="ElementShortName">valid_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_counter[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_prbs/prbs_counter" type="array">
+      <obj_property name="ElementShortName">prbs_counter[6:0]</obj_property>
+      <obj_property name="ObjectShortName">prbs_counter[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_prbs/period" type="logic">
+      <obj_property name="ElementShortName">period</obj_property>
+      <obj_property name="ObjectShortName">period</obj_property>
+   </wvobject>
+</wave_config>

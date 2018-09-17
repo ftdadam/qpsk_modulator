@@ -1,0 +1,266 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Tue Nov 07 13:57:40 2017
+| Host         : DESKTOP-8T38IV2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mcu_rst_clk_wiz_1_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of mcu_rst_clk_wiz_1_100M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 9)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Tue Nov 07 13:57:40 2017
+| Host         : DESKTOP-8T38IV2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mcu_microblaze_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of mcu_microblaze_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1 (Rev. 9)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Tue Nov 07 13:57:40 2017
+| Host         : DESKTOP-8T38IV2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mcu_microblaze_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of mcu_microblaze_0_0 (xilinx.com:ip:microblaze:9.6) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Tue Nov 07 13:57:40 2017
+| Host         : DESKTOP-8T38IV2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mcu_mdm_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of mcu_mdm_1_0 (xilinx.com:ip:mdm:3.2 (Rev. 5)) to current project options.
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_M_AXIS_ID_WIDTH to value 7 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Tue Nov 07 13:57:40 2017
+| Host         : DESKTOP-8T38IV2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mcu_lmb_bram_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of mcu_lmb_bram_0 (xilinx.com:ip:blk_mem_gen:8.3 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Tue Nov 07 13:57:40 2017
+| Host         : DESKTOP-8T38IV2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mcu_ilmb_v10_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of mcu_ilmb_v10_0 (xilinx.com:ip:lmb_v10:3.0 (Rev. 8)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Tue Nov 07 13:57:40 2017
+| Host         : DESKTOP-8T38IV2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mcu_ilmb_bram_if_cntlr_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of mcu_ilmb_bram_if_cntlr_0 (xilinx.com:ip:lmb_bram_if_cntlr:4.0 (Rev. 8)) to current project options.
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_MASK1 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK2 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK3 to value 0x0000000000800000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Tue Nov 07 13:57:40 2017
+| Host         : DESKTOP-8T38IV2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mcu_dlmb_v10_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of mcu_dlmb_v10_0 (xilinx.com:ip:lmb_v10:3.0 (Rev. 8)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Tue Nov 07 13:57:40 2017
+| Host         : DESKTOP-8T38IV2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mcu_dlmb_bram_if_cntlr_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of mcu_dlmb_bram_if_cntlr_0 (xilinx.com:ip:lmb_bram_if_cntlr:4.0 (Rev. 8)) to current project options.
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_MASK1 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK2 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK3 to value 0x0000000000800000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Tue Nov 07 13:57:40 2017
+| Host         : DESKTOP-8T38IV2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mcu_clk_wiz_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of mcu_clk_wiz_1_0 (xilinx.com:ip:clk_wiz:5.3) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Tue Nov 07 13:57:40 2017
+| Host         : DESKTOP-8T38IV2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mcu_axi_uartlite_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of mcu_axi_uartlite_0_0 (xilinx.com:ip:axi_uartlite:2.0 (Rev. 12)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Tue Nov 07 13:57:40 2017
+| Host         : DESKTOP-8T38IV2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mcu_axi_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of mcu_axi_gpio_0_0 (xilinx.com:ip:axi_gpio:2.0 (Rev. 10)) to current project options.
+

@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon Aug 27 23:33:26 2018
+# Process ID: 12372
+# Current directory: D:/proyecto_integrador/rtl_projects/top
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7440 D:\proyecto_integrador\rtl_projects\top\top.xpr
+# Log file: D:/proyecto_integrador/rtl_projects/top/vivado.log
+# Journal file: D:/proyecto_integrador/rtl_projects/top\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/proyecto_integrador/rtl_projects/top/top.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+open_wave_config D:/proyecto_integrador/rtl_projects/top/tb_top_behav.wcfg
+source tb_top.tcl
+run all
+close_sim

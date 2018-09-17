@@ -1,0 +1,9 @@
+
+****** Webtalk v2016.1 (64-bit)
+  **** SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+  **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source D:/proyecto_integrador/rtl_projects/register_file/register_file.hw/webtalk/labtool_webtalk.tcl -notrace
+Acceso denegado.
+INFO: [Common 17-206] Exiting Webtalk at Tue Nov 07 22:22:15 2017...

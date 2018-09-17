@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../info_ram_addr_counter.v"
+verilog xil_defaultlib  "../../../tx_top.srcs/sources_1/new/splitter.v"
+verilog xil_defaultlib  "../../../info_block_ram.v"
+verilog xil_defaultlib  "../../../../tx_filter/tx_filter.srcs/sources_1/new/tx_filter.v"
+verilog xil_defaultlib  "../../../tx_top.srcs/sources_1/new/splitter_top.v"
+verilog xil_defaultlib  "../../../fcsg.v"
+verilog xil_defaultlib  "../../../tx_top.srcs/sources_1/new/tx_top.v"
+verilog xil_defaultlib  "../../../tx_top.srcs/sim_1/new/tb_tx_top.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

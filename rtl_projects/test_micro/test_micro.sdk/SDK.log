@@ -1,0 +1,459 @@
+19:46:04 INFO  : Launching XSDB server: xsdb.bat -interactive D:\proyecto_integrador\rtl_projects\test_micro\test_micro.sdk\temp_xsdb_launch_script.tcl
+19:46:11 INFO  : XSDB server has started successfully.
+19:46:16 INFO  : Processing command line option -hwspec D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top.hdf.
+19:50:42 INFO  : Launching XSDB server: xsdb.bat -interactive D:\proyecto_integrador\rtl_projects\test_micro\test_micro.sdk\temp_xsdb_launch_script.tcl
+19:50:44 INFO  : XSDB server has started successfully.
+19:50:45 INFO  : Processing command line option -hwspec D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top.hdf.
+19:50:46 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+19:51:58 INFO  : Launching XSDB server: xsdb.bat -interactive D:\proyecto_integrador\rtl_projects\test_micro\test_micro.sdk\temp_xsdb_launch_script.tcl
+19:52:01 INFO  : XSDB server has started successfully.
+19:52:01 INFO  : Processing command line option -hwspec D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top.hdf.
+19:52:01 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+20:01:58 INFO  : Launching XSDB server: xsdb.bat -interactive D:\proyecto_integrador\rtl_projects\test_micro\test_micro.sdk\temp_xsdb_launch_script.tcl
+20:02:00 INFO  : XSDB server has started successfully.
+20:02:00 INFO  : Processing command line option -hwspec D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top.hdf.
+20:02:00 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+20:02:00 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1510095484110,  Project:1510094663318
+20:02:00 INFO  : The hardware specification for project 'top_hw_platform_0' is different from D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top.hdf.
+20:02:00 INFO  : Copied contents of D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+20:02:07 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:02:10 INFO  : 
+20:02:12 INFO  : Updating hardware inferred compiler options for microblaze.
+20:02:12 INFO  : Clearing existing target manager status.
+20:06:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:10:11 INFO  : Launching XSDB server: xsdb.bat -interactive D:\proyecto_integrador\rtl_projects\test_micro\test_micro.sdk\temp_xsdb_launch_script.tcl
+18:10:16 INFO  : XSDB server has started successfully.
+18:10:24 INFO  : Processing command line option -hwspec D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top.hdf.
+18:10:24 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+18:14:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:14:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:14:51 INFO  : FPGA configured successfully with bitstream "D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/download.bit"
+18:17:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:17:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:17:26 INFO  : FPGA configured successfully with bitstream "D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/download.bit"
+18:26:50 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+18:27:30 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+18:27:53 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:663)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+18:28:02 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+18:28:21 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+18:28:31 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+18:29:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:29:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:29:37 INFO  : FPGA configured successfully with bitstream "D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/download.bit"
+18:29:41 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+18:30:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:30:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:30:48 INFO  : FPGA configured successfully with bitstream "D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/download.bit"
+18:32:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:32:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:32:23 INFO  : FPGA configured successfully with bitstream "D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/download.bit"
+18:33:58 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+18:34:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:34:21 INFO  : 'fpga -state' command is executed.
+18:34:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:34:22 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:22 INFO  : Hardware design information is loaded from 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf'.
+18:34:22 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:22 INFO  : Processor reset is completed for 'microblaze_0'.
+18:34:23 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:23 INFO  : The application 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf' is downloaded to processor 'microblaze_0'.
+18:34:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+loadhw D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+dow D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf
+----------------End of Script----------------
+
+18:34:23 INFO  : Memory regions updated for context MicroBlaze #0
+18:34:23 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:23 INFO  : 'con' command is executed.
+18:34:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+con
+----------------End of Script----------------
+
+18:34:30 INFO  : Disconnected from the channel tcfchan#1.
+18:34:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:34:31 INFO  : 'fpga -state' command is executed.
+18:34:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:34:31 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:31 INFO  : Hardware design information is loaded from 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf'.
+18:34:32 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:32 INFO  : Processor reset is completed for 'microblaze_0'.
+18:34:32 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:32 INFO  : The application 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf' is downloaded to processor 'microblaze_0'.
+18:34:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+loadhw D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+dow D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf
+----------------End of Script----------------
+
+18:34:32 INFO  : Memory regions updated for context MicroBlaze #0
+18:34:32 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:33 INFO  : 'con' command is executed.
+18:34:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+con
+----------------End of Script----------------
+
+18:34:49 INFO  : Disconnected from the channel tcfchan#2.
+18:34:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:34:49 INFO  : 'fpga -state' command is executed.
+18:34:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:34:50 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:50 INFO  : Hardware design information is loaded from 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf'.
+18:34:50 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:50 INFO  : Processor reset is completed for 'microblaze_0'.
+18:34:51 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:51 INFO  : The application 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf' is downloaded to processor 'microblaze_0'.
+18:34:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+loadhw D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+dow D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf
+----------------End of Script----------------
+
+18:34:51 INFO  : Memory regions updated for context MicroBlaze #0
+18:34:51 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:51 INFO  : 'con' command is executed.
+18:34:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+con
+----------------End of Script----------------
+
+18:37:19 INFO  : Disconnected from the channel tcfchan#3.
+18:37:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:37:20 INFO  : 'fpga -state' command is executed.
+18:37:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:37:20 INFO  : Context for processor 'microblaze_0' is selected.
+18:37:20 INFO  : Hardware design information is loaded from 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf'.
+18:37:21 INFO  : Context for processor 'microblaze_0' is selected.
+18:37:21 INFO  : Processor reset is completed for 'microblaze_0'.
+18:37:21 INFO  : Context for processor 'microblaze_0' is selected.
+18:37:21 INFO  : The application 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf' is downloaded to processor 'microblaze_0'.
+18:37:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+loadhw D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+dow D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf
+----------------End of Script----------------
+
+18:37:21 INFO  : Memory regions updated for context MicroBlaze #0
+18:37:21 INFO  : Context for processor 'microblaze_0' is selected.
+18:37:22 INFO  : 'con' command is executed.
+18:37:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+con
+----------------End of Script----------------
+
+18:37:47 INFO  : Launching XSDB server: xsdb.bat -interactive D:\proyecto_integrador\rtl_projects\test_micro\test_micro.sdk\temp_xsdb_launch_script.tcl
+18:37:48 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:56:36 INFO  : Launching XSDB server: xsdb.bat -interactive D:\proyecto_integrador\rtl_projects\test_micro\test_micro.sdk\temp_xsdb_launch_script.tcl
+18:56:38 INFO  : XSDB server has started successfully.
+18:56:39 INFO  : Processing command line option -hwspec D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top.hdf.
+18:56:39 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+18:56:40 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1510178096776,  Project:1510095484110
+18:56:40 INFO  : The hardware specification for project 'top_hw_platform_0' is different from D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top.hdf.
+18:56:40 INFO  : Copied contents of D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+18:56:40 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:56:52 INFO  : 
+18:56:54 INFO  : Updating hardware inferred compiler options for microblaze.
+18:56:54 INFO  : Clearing existing target manager status.
+18:56:55 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:56:55 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+18:57:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:57:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:57:31 INFO  : FPGA configured successfully with bitstream "D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/download.bit"
+18:57:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:57:36 INFO  : 'fpga -state' command is executed.
+18:57:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:57:37 INFO  : Context for processor 'microblaze_0' is selected.
+18:57:37 INFO  : Hardware design information is loaded from 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf'.
+18:57:37 INFO  : Context for processor 'microblaze_0' is selected.
+18:57:37 INFO  : Processor reset is completed for 'microblaze_0'.
+18:57:38 INFO  : Context for processor 'microblaze_0' is selected.
+18:57:38 INFO  : The application 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf' is downloaded to processor 'microblaze_0'.
+18:57:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+loadhw D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+dow D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf
+----------------End of Script----------------
+
+18:57:38 INFO  : Memory regions updated for context MicroBlaze #0
+18:57:38 INFO  : Context for processor 'microblaze_0' is selected.
+18:57:38 INFO  : 'con' command is executed.
+18:57:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+con
+----------------End of Script----------------
+
+18:58:15 INFO  : Disconnected from the channel tcfchan#1.
+18:58:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:58:15 INFO  : 'fpga -state' command is executed.
+18:58:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:58:16 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:16 INFO  : Hardware design information is loaded from 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf'.
+18:58:16 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:16 ERROR : Cannot stop MicroBlaze. Stalled on instruction fetch
+18:58:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+loadhw D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+rst -processor
+----------------End of Script----------------
+
+18:58:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:58:23 INFO  : 'fpga -state' command is executed.
+18:58:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:58:24 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:24 INFO  : Hardware design information is loaded from 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf'.
+18:58:24 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:24 ERROR : Cannot stop MicroBlaze. Stalled on instruction fetch
+18:58:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+loadhw D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+rst -processor
+----------------End of Script----------------
+
+18:58:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:58:29 INFO  : 'fpga -state' command is executed.
+18:58:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:58:30 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:30 INFO  : Hardware design information is loaded from 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf'.
+18:58:30 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:30 INFO  : Processor reset is completed for 'microblaze_0'.
+18:58:30 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:31 INFO  : The application 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf' is downloaded to processor 'microblaze_0'.
+18:58:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+loadhw D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+dow D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf
+----------------End of Script----------------
+
+18:58:31 INFO  : Memory regions updated for context MicroBlaze #0
+18:58:31 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:31 INFO  : 'con' command is executed.
+18:58:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+con
+----------------End of Script----------------
+
+18:58:38 INFO  : Disconnected from the channel tcfchan#2.
+18:58:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:58:56 INFO  : 'fpga -state' command is executed.
+18:58:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:58:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:58:56 INFO  : 'fpga -state' command is executed.
+18:58:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:58:56 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:57 INFO  : Hardware design information is loaded from 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf'.
+18:58:57 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:57 INFO  : Hardware design information is loaded from 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf'.
+18:58:57 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:57 INFO  : Processor reset is completed for 'microblaze_0'.
+18:58:57 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:57 INFO  : Processor reset is completed for 'microblaze_0'.
+18:58:57 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:57 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:57 INFO  : The application 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf' is downloaded to processor 'microblaze_0'.
+18:58:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+loadhw D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+dow D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf
+----------------End of Script----------------
+
+18:58:58 INFO  : Memory regions updated for context MicroBlaze #0
+18:58:58 INFO  : The application 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf' is downloaded to processor 'microblaze_0'.
+18:58:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+loadhw D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+dow D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf
+----------------End of Script----------------
+
+18:58:58 INFO  : Memory regions updated for context MicroBlaze #0
+18:58:58 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:58 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:58 INFO  : 'con' command is executed.
+18:58:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+con
+----------------End of Script----------------
+
+18:58:58 ERROR : Already running
+18:58:58 INFO  : Disconnected from the channel tcfchan#3.
+18:59:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:59:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:59:27 INFO  : FPGA configured successfully with bitstream "D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/download.bit"
+18:59:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A" && level==0} -index 0' command is executed.
+18:59:32 INFO  : 'fpga -state' command is executed.
+18:59:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:59:33 INFO  : Context for processor 'microblaze_0' is selected.
+18:59:33 INFO  : Hardware design information is loaded from 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf'.
+18:59:33 INFO  : Context for processor 'microblaze_0' is selected.
+18:59:33 INFO  : Processor reset is completed for 'microblaze_0'.
+18:59:33 INFO  : Context for processor 'microblaze_0' is selected.
+18:59:34 INFO  : The application 'D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf' is downloaded to processor 'microblaze_0'.
+18:59:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+loadhw D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/top_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+dow D:/proyecto_integrador/rtl_projects/test_micro/test_micro.sdk/microblaze/Debug/microblaze.elf
+----------------End of Script----------------
+
+18:59:34 INFO  : Memory regions updated for context MicroBlaze #0
+18:59:34 INFO  : Context for processor 'microblaze_0' is selected.
+18:59:34 INFO  : 'con' command is executed.
+18:59:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747923A"} -index 0
+con
+----------------End of Script----------------
+
+19:00:21 INFO  : Launching XSDB server: xsdb.bat -interactive D:\proyecto_integrador\rtl_projects\test_micro\test_micro.sdk\temp_xsdb_launch_script.tcl
+19:00:21 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

@@ -1,0 +1,21 @@
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 0995086b2429467d9107b9f2aa8fed4e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tx_top_behav xil_defaultlib.tb_tx_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1037] module tx_top does not have a parameter named RAM_EXP [D:/proyecto_integrador/rtl_projects/tx_top/tx_top.srcs/sim_1/new/tb_tx_top.v:51]
+WARNING: [VRFC 10-1037] module tx_top does not have a parameter named RAM_WIDTH [D:/proyecto_integrador/rtl_projects/tx_top/tx_top.srcs/sim_1/new/tb_tx_top.v:52]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.info_block_ram(RAM_EXP=15,RAM_WI...
+Compiling module xil_defaultlib.fcsg(EXP_OS=2)
+Compiling module xil_defaultlib.splitter(RAM_WIDTH=8)
+Compiling module xil_defaultlib.info_ram_addr_counter(EXP_BAUD=3...
+Compiling module xil_defaultlib.splitter_top(RAM_WIDTH=8,RAM_EXP...
+Compiling module xil_defaultlib.tx_filter(NB_COEF=8,NBF_COEF_SRR...
+Compiling module xil_defaultlib.tx_top(EXP_OS=2,EXP_BAUD=3)
+Compiling module xil_defaultlib.tb_tx_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_tx_top_behav

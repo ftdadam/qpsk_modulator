@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="235456666666fs"></ZoomStartTime>
+      <ZoomEndTime time="237436666667fs"></ZoomEndTime>
+      <Cursor1Time time="239265000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/tb_top/CLK100MHZ" type="logic">
+      <obj_property name="ElementShortName">CLK100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK100MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/dspclock" type="logic">
+      <obj_property name="ElementShortName">dspclock</obj_property>
+      <obj_property name="ObjectShortName">dspclock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UART_TXD_IN" type="logic">
+      <obj_property name="ElementShortName">UART_TXD_IN</obj_property>
+      <obj_property name="ObjectShortName">UART_TXD_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/SW" type="array">
+      <obj_property name="ElementShortName">SW[0:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[0:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UART_RXD_OUT" type="logic">
+      <obj_property name="ElementShortName">UART_RXD_OUT</obj_property>
+      <obj_property name="ObjectShortName">UART_RXD_OUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/LED" type="array">
+      <obj_property name="ElementShortName">LED[5:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/out_read_unit_for_sim" type="array">
+      <obj_property name="ElementShortName">out_read_unit_for_sim[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_read_unit_for_sim[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_tx_top/u_tx_filter_infase/coef_shift_reg" type="array">
+      <obj_property name="ElementShortName">coef_shift_reg[2047:0]</obj_property>
+      <obj_property name="ObjectShortName">coef_shift_reg[2047:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_tx_top/u_tx_filter_quadrature/coef_shift_reg" type="array">
+      <obj_property name="ElementShortName">coef_shift_reg[2047:0]</obj_property>
+      <obj_property name="ObjectShortName">coef_shift_reg[2047:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_register_file/micro_com" type="array">
+      <obj_property name="ElementShortName">micro_com[7:0]</obj_property>
+      <obj_property name="ObjectShortName">micro_com[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_register_file/micro_data" type="array">
+      <obj_property name="ElementShortName">micro_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">micro_data[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_tx_top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_tx_top/u_tx_filter_infase/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_register_file/i_filter_infase" type="array">
+      <obj_property name="ElementShortName">i_filter_infase[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_filter_infase[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_register_file/i_filter_quadrature" type="array">
+      <obj_property name="ElementShortName">i_filter_quadrature[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_filter_quadrature[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_top_mixer/o_psk_infase" type="array">
+      <obj_property name="ElementShortName">o_psk_infase[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_psk_infase[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_top_mixer/o_psk_quadrature" type="array">
+      <obj_property name="ElementShortName">o_psk_quadrature[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_psk_quadrature[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_simple_adder/o_qpsk" type="array">
+      <obj_property name="ElementShortName">o_qpsk[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_qpsk[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_register_file/addr_counter/reg_ram_addr" type="array">
+      <obj_property name="ElementShortName">reg_ram_addr[14:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_ram_addr[14:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_register_file/addr_counter/o_coef_loaded" type="logic">
+      <obj_property name="ElementShortName">o_coef_loaded</obj_property>
+      <obj_property name="ObjectShortName">o_coef_loaded</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_register_file/addr_counter/o_rdy_log" type="logic">
+      <obj_property name="ElementShortName">o_rdy_log</obj_property>
+      <obj_property name="ObjectShortName">o_rdy_log</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_top_mixer/u_cos_ram/ram_0" type="array">
+      <obj_property name="ElementShortName">ram_0[31:0][5:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_0[31:0][5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">5</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_top_mixer/u_cos_ram/reg_out_ram" type="array">
+      <obj_property name="ElementShortName">reg_out_ram[5:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_out_ram[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_top_mixer/connect_cos_ram_addr_to_mixer_infase" type="array">
+      <obj_property name="ElementShortName">connect_cos_ram_addr_to_mixer_infase[4:0]</obj_property>
+      <obj_property name="ObjectShortName">connect_cos_ram_addr_to_mixer_infase[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_tx_top/u_splitter_top/o_bit_infase" type="logic">
+      <obj_property name="ElementShortName">o_bit_infase</obj_property>
+      <obj_property name="ObjectShortName">o_bit_infase</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_tx_top/u_splitter_top/o_bit_quadrature" type="logic">
+      <obj_property name="ElementShortName">o_bit_quadrature</obj_property>
+      <obj_property name="ObjectShortName">o_bit_quadrature</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_tx_top/u_splitter_top/i_valid" type="logic">
+      <obj_property name="ElementShortName">i_valid</obj_property>
+      <obj_property name="ObjectShortName">i_valid</obj_property>
+   </wvobject>
+</wave_config>
